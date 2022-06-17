@@ -1,6 +1,6 @@
 {
     'name': 'Real Estate Account',
-    'application': False,
+    # 'application': True,
     'category': 'Marketing',
     'summary': 'Yes this is an app for an app',
     'depends': [
@@ -9,7 +9,7 @@
         'account',
     ],
     'data': [
-        'security/ir.model.access.csv',
-        'views/estate_account_menus.xml',
-    ]
+        # 'security/ir.model.access.csv',
+    ],
+    'auto_install': True,
 }
